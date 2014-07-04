@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="yiuzone Maven Webapp"
+  id="myeclipse.1404432133536"
+  context-root="/yiuzone"
+  j2ee-spec="6.0"
+  archive="yiuzone Maven Webapp.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
