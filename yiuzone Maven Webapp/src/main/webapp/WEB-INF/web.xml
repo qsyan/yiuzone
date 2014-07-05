@@ -16,6 +16,13 @@
     <servlet-name>test4git</servlet-name>
     <servlet-class>com.yiuzone.test.test4git</servlet-class>
   </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Test4git2</servlet-name>
+    <servlet-class>com.yiuzone.test2.Test4git2</servlet-class>
+  </servlet>
+
 
 
   <servlet-mapping>
@@ -25,5 +32,9 @@
   <servlet-mapping>
     <servlet-name>test4git</servlet-name>
     <url-pattern>/servlet/test4git</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Test4git2</servlet-name>
+    <url-pattern>/servlet/Test4git2</url-pattern>
   </servlet-mapping>
 </web-app>
